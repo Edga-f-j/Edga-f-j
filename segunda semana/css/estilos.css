@@ -1,0 +1,29 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.seccion1{
+    display: grid;
+    width: 100%;
+    height: 600px;
+    font-size: 150%;
+
+
+    color: white;
+    background-image: url(../imagenes/rata.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: saturation;
+    grid-template-columns: auto auto;
+}
+
+.titulo1{
+
+    margin: 10%;
+}
+.parrafo1{
+    margin: 10%;
+}
