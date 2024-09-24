@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .caja{
   background-color: blue;
   width: 100px;
@@ -55,7 +55,8 @@
     .grid-container{
         flex-direction: column;
     }
-=======
+    }
+
 .caja{
   background-color: blue;
   width: 100px;
@@ -112,5 +113,4 @@
     .grid-container{
         flex-direction: column;
     }
->>>>>>> 831d2c815313a700fe7003f2e8b0c07fbc7165eb
 }
