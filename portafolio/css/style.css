@@ -1,5 +1,8 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background: #b01111;
     color: #fff;
@@ -17,6 +20,7 @@ h1{
 
 
 nav {
+    padding: 10px 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -33,7 +37,7 @@ nav ul{
 nav ul li{
 
     display: inline;
-    margin: 0 10px;
+    margin: 1px 0;
 }
 
 nav ul li a{
@@ -44,7 +48,7 @@ nav ul li a{
 }
 
 nav ul li:hover{
-    background: #3ead47;
+    background: #59645a;
 }
 
 .wrapper {
@@ -53,7 +57,7 @@ nav ul li:hover{
   }
 
 #about{
-    padding: 20px;
+    padding: 5px;
     background: #7b2020;
 }
 #about h2{
