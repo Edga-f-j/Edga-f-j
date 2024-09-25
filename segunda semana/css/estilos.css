@@ -11,19 +11,62 @@ body{
     height: 600px;
     font-size: 150%;
 
-
     color: white;
     background-image: url(../imagenes/rata.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-blend-mode: saturation;
     grid-template-columns: auto auto;
+    text-align: center;
 }
 
-.titulo1{
 
-    margin: 10%;
+.titulo1{
+    margin-top: 100px;
+   
 }
 .parrafo1{
     margin: 10%;
 }
+
+
+/*--------- parte de menu de opciones -----------*/
+
+nav{
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(83, 83, 101);
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+display: inline;
+margin: 1px 0;
+}
+
+nav ul li a{
+    color:#fff;
+    padding: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: rgba(167, 170, 172, 0.559);
+}
+
+.wrapper{
+    width: 80%;
+    margin-top: 80px;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
