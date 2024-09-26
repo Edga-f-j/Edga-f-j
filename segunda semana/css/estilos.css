@@ -70,7 +70,104 @@ body{
     color: white;
     font-size: 20px;
     text-align: center;
+
+    
 }
+
+
+/*----------------- SECCION 4 DE CHEF -----------*/
+/* ------------------------------ postres -----------------*/
+.postres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    color: black;
+
+    
+    background-image: url(../fondos/Imagen6-removebg-preview.png);
+    background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.postre{
+    width: 400px;
+    padding-top: 150px;
+    background: (0,0,0,0.5);
+    text-align: center;
+    font-size: 15px;
+    
+}
+.postre img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+}
+/* ------------------------------ Platos fuertes-----------------*/
+.platos-fuertes{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+
+    background-image: url(../fondos/Imagen6-removebg-preview.png);
+    background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.plato-fuerte{
+    width: 400px;
+    padding-top: 150px;
+    background: (0,0,0,0.5);
+    text-align: center;
+    font-size: 15px;
+}
+.plato-fuerte img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+/* ------------------------------ Bebidas -----------------------*/
+
+.bebidas{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+
+    background-image: url(../fondos/Imagen6-removebg-preview.png);
+    background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.bebida{
+    width: 400px;
+    padding-top: 150px;
+    background: (0,0,0,0.5);
+    text-align: center;
+    font-size: 15px;
+}
+.bebida img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+
+
+
+
 
 
 /*----------------- SECCION 4 DE CHEF -----------*/
