@@ -3,6 +3,20 @@ body{
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-image: url(../imagenes/imagen_de_fondo1.jpg);
+    background-size: 100% auto; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.imagen-logo{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 /* ---------------------parte de presentaion-----------*/
@@ -13,12 +27,12 @@ body{
     font-size: 120%;
 
     color: white;
-    background-image: url(../imagenes/principal.jpg);
+    /* background-image: url(../imagenes/principal.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-blend-mode: saturation;
-    grid-template-columns: auto auto;
-    text-align: center;
+    background-blend-mode: saturation; */
+    /* grid-template-columns: auto auto;
+    text-align: center; */
 }
 
 .titulo1{
@@ -29,18 +43,47 @@ body{
     margin: 10%;
 }
 
-/*----------------- SECCION 4 DE CHEF -----------*/
+/*----------------- SECCION 2 DE QUIENES SOMOS -----------*/
+.seccion2{
 
+    display: grid;
+    font-size: 20px;
+    margin-top: 80px;
+    color: white;
+    /* grid-template-columns: 1fr 1fr; */
+    /* justify-items: center; */
+}
+.tituloseccion2{
+    padding: 10px 100px;
+    border-left: 30px;
+}
+.parrafoseccion2{
+    /* padding: 0px 350px; */
+    padding-left: 350px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+
+/*----------------- SECCION 3 DE MENU -----------*/
+.seccion3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*----------------- SECCION 4 DE CHEF -----------*/
 .seccion4{
     display:grid;
     width: 100%;
     height: 600px;
     font-size: 100%;
 
-    background-image: url(../imagenes/postre.jpg);
+    /* background-image: url(../imagenes/postre.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: saturation;
+    background-blend-mode: saturation; */
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
@@ -53,14 +96,35 @@ body{
     padding: 20px;
     border-radius: 20px;
     max-width: 600px;
+    text-align: justify;
 }
 
 .foto.de.chef img{
-    width: 300px;
+    width: 500px;
     height: auto;
     border-radius: 0;
     box-shadow: none;
 }
+
+/*----------------- SECCION 5 DE contacto -----------*/
+
+
+
+.imagen-contacto-logo{
+    padding-top: 100px;
+    text-align: center;
+}
+.imagen-contacto-logo img{
+    width: 15%; /* Hace que la imagen sea el 20% de su tamaño original */
+    height: auto;
+    text-align: center;
+}
+
+.textocontacto{
+    color: #fff;
+    
+}
+
 
 
 
@@ -68,41 +132,44 @@ body{
 
 /*--------- parte de menu de opciones -----------*/
 
-nav{
+nav {
     padding: 1px;
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgb(83, 83, 101, 0.5);
+    background: rgba(83, 83, 101, 0.5);
 }
 
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex; /* Alinea los elementos del menú horizontalmente */
+    justify-content: center; /* Centra el menú horizontalmente */
 }
 
-nav ul li{
-display: inline;
-margin: 1px 0;
+nav ul li {
+    margin: 0 20px; /* Ajusta el margen entre los elementos del menú */
 }
 
-nav ul li a{
-    color:#fff;
-    padding: 80px;
+nav ul li a {
+    color: #fff;
+    padding: 10px 20px; /* Menor padding para que el área clicable sea más ajustada */
     text-align: center;
     text-decoration: none;
+    display: block; /* Esto hace que el área clicable abarque solo el texto y padding */
 }
 
-nav ul li:hover{
+nav ul li a:hover {
     background: rgba(167, 170, 172, 0.559);
+    border-radius: 5px; /* Redondea los bordes para un mejor diseño */
 }
 
-.wrapper{
+.wrapper {
     width: 80%;
-    margin-top: 80px;
+    margin-top: 50px; /* Aumenta el margen superior para compensar el menú fijo */
 }
 
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
-
