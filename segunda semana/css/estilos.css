@@ -122,27 +122,29 @@ body{
     gap: 10px;
     justify-content: center;
     color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    
 
     
-    background-image: url(../fondos/Imagen6-removebg-preview.png);
+    background-image: url(../fondos/FONDO-postre.png);
     background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 95%;
     position: relative;
 }
-
 .postre{
     width: 400px;
-    padding-top: 150px;
+    padding-top: 130px;
     background: (0,0,0,0.5);
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 .postre img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50px;
 }
 
@@ -152,27 +154,29 @@ body{
 
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     color: black;
+    padding-left: 3%;
+    padding-right: 3%;
 
-    background-image: url(../fondos/Imagen6-removebg-preview.png);
+    background-image: url(../fondos/fondo-fuerte.png);
     background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 95%;
 }
 
 .plato-fuerte{
     width: 400px;
-    padding-top: 150px;
+    padding-top: 130px;
     background: (0,0,0,0.5);
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 .plato-fuerte img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50px;
 }
 
@@ -182,27 +186,29 @@ body{
 
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     color: black;
+    padding-left: 3%;
+    padding-right: 3%;
 
-    background-image: url(../fondos/Imagen6-removebg-preview.png);
+    background-image: url(../fondos/fondo-bebidas.png);
     background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 95%;
 }
 
 .bebida{
     width: 400px;
-    padding-top: 150px;
+    padding-top: 130px;
     background: (0,0,0,0.5);
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 .bebida img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50px;
 }
 
