@@ -49,32 +49,28 @@ body{
     padding-top: 3%;
     display: grid;
     font-size: 20px;
-    margin-top: 80px;
+    margin-top: 5%;
     color: white;
     /* grid-template-columns: 1fr 1fr; */
     /* justify-items: center; */
 }
-.tituloseccion2{
-    font-size: 33px;
-    padding: 10px 100px;
-    border-left: 30px;
-}
+
 .parrafoseccion2{
     /* padding: 0px 350px; */
     padding-left: 45%;
     padding-right: 20%;
     text-align: justify;
-    font-size: 115%;
-    padding-bottom: 100px;
+    font-size: 110%;
+   
 
     background-image: url(../fondos/tablafondo.png);
     background-repeat: no-repeat;
-    background-position: 200px;
-    background-size: 85%;
-    justify-content: center;
+    background-position: 50%;
+    background-size: 90%;
+    justify-content: center;;
 }
 .parrafo{
-    padding-top: 150px;
+    padding-top: 1%;
 }
 
 
@@ -122,30 +118,34 @@ body{
     gap: 10px;
     justify-content: center;
     color: black;
-    padding-left: 3%;
-    padding-right: 3%;
-    
-
+    padding-left: 1%;
+    padding-right: 1%;
     
     background-image: url(../fondos/FONDO-postre.png);
     background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
     background-position: center;
     height: 100vh;
-    width: 95%;
-    position: relative;
+    width: 100%;
+   
 }
 .postre{
-    width: 400px;
-    padding-top: 130px;
+    width: 270px;
+    padding-top: 100px;
     background: (0,0,0,0.5);
     text-align: center;
-    font-size: 20px;
+    font-size: 75%;
     
 }
 .postre img{
-    width: 300px;
-    height: 300px;
+    width: 75%;
+    height: 40%;
     border-radius: 50px;
+}
+
+@media (max-width: 600px){
+    postres{
+        flex-direction: column;
+    }
 }
 
 
@@ -153,12 +153,12 @@ body{
 .platos-fuertes{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
     gap: 10px;
     justify-content: center;
     color: black;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
 
     background-image: url(../fondos/fondo-fuerte.png);
     background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
@@ -168,17 +168,19 @@ body{
 }
 
 .plato-fuerte{
-    width: 400px;
-    padding-top: 130px;
+    width: 270px;
+    padding-top: 100px;
     background: (0,0,0,0.5);
     text-align: center;
-    font-size: 20px;
+    font-size: 75%;
 }
 .plato-fuerte img{
-    width: 300px;
-    height: 300px;
+    width: 75%;
+    height: 40%;
     border-radius: 50px;
 }
+
+
 
 /* ------------------------------ Bebidas -----------------------*/
 
@@ -189,8 +191,8 @@ body{
     gap: 10px;
     justify-content: center;
     color: black;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
 
     background-image: url(../fondos/fondo-bebidas.png);
     background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
@@ -200,15 +202,15 @@ body{
 }
 
 .bebida{
-    width: 400px;
-    padding-top: 130px;
+    width: 260px;
+    padding-top: 100px;
     background: (0,0,0,0.5);
     text-align: center;
-    font-size: 20px;
+    font-size: 70%;
 }
 .bebida img{
-    width: 300px;
-    height: 300px;
+    width: 70%;
+    height: 40%;
     border-radius: 50px;
 }
 
@@ -223,9 +225,9 @@ body{
     padding-top: 3%;
     display:grid;
     width: 100%;
-    height: 600px;
-    font-size: 160%;
-    padding-bottom: 100px;
+    height: 100%;
+    font-size: 140%;
+    padding-bottom: 10%;
 
     /* background-image: url(../imagenes/postre.jpg);
     background-repeat: no-repeat;
@@ -240,11 +242,11 @@ body{
 .descripcion.de.chef{
     color: rgba(14, 3, 3, 0.842);
     
-    padding: 20px;
-    padding-left: 10%;
+    padding: 5%;
+    padding-left: 15%;
     padding-right: 15%;
     border-radius: 20px;
-    max-width: 600px;
+    max-width: 90%;
     text-align: justify;
 
     background-image: url(../secciones/perg.png);
@@ -260,7 +262,7 @@ body{
 }
 
 .descripcion.de.chef img{
-    width: 80%;
+    width: 90%;
     animation: mover 5s infinite;
 }
 
